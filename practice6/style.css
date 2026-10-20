@@ -91,7 +91,7 @@ body {
 }
 
 .data-table tbody tr:hover {
-    background-color: #f8fafc; /* 마우스 올렸을 때 하이라이트 효과 */
+    background-color: #f8fafc;
 }
 
 .icon-box {
@@ -102,9 +102,9 @@ body {
 
 .device-info {
     /*
-        테이블을 이루고 있는 td에 display: flex를 직접적으로 줄 수 없음
-        그럴 경우, 우리가 알고 있는 '셀'로서의 특성을 잃게 됨
-        => td가 안되니, td의 자식으로 div를 더 넣으면 되겠구나!
+       테이블을 이루고 있는 td에 display: flex를 직접적으로 줄 수 없음
+       그럴 경우, 우리가 알고 있는 '셀'로서의 특성을 잃게 됨
+       => td가 안되니, td의 자식으로 div를 더 넣으면 되겠구나!
     */
     display: flex;
     align-items: center;
