@@ -5,7 +5,7 @@
 .container {
     margin-bottom: 20px;
     background: #f1f5f9;
-    border: 2px dashed #94a6b8;
+    border: 2px dashed #94a3b8;
 }
 
 .item {
@@ -19,7 +19,7 @@
 
 .flex {
     display: flex;
-    /* flex-direction: row;   -> 가로 방향 주축 */
+    /* flex-direction: row;  -> 가로 방향 주축 */
 }
 
 .column {
@@ -36,7 +36,7 @@
 
 .jc { display: flex; }
 .jc.flex-start { justify-content: flex-start; }
-.jc.jc-center { justify-content: center; }
+.jc.jc-center { justify-content: center;}
 .jc.flex-end { justify-content: flex-end; }
 .jc.space-between { justify-content: space-between; }
 .jc.space-around { justify-content: space-around; }

@@ -63,13 +63,13 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Suit', sans-serif ;
+    font-family: 'Suit', sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
-    min-height: 100dvh;    /* 높이에 대한 최소 크기를 100dvh */
+    min-height: 100dvh;   /* 높이에 대한 최소 크기를 100dvh */
     display: flex;
     flex-direction: column;
 }
@@ -83,7 +83,7 @@ ul {
 nav ul {
     display: flex;
     border-bottom: 1px solid #e5e5e5;
-    background: #e5e5e5;
+    background-color: #e5e5e5;
     gap: 1px;
 }
 
@@ -98,7 +98,7 @@ nav ul li {
 
 nav ul li:nth-child(6) {
     text-transform: uppercase;
-    font-weight: bold;     /* 700 */
+    font-weight: bold;   /* 700 */
     font-size: 20px;
 }
 
@@ -125,9 +125,9 @@ main {
 .image {
     flex: 1;
     background-image: url("https://picsum.photos/seed/picsum80/800/600");
-    background-repeat: no-repeat;   /* 이미지를 딱 한 번만 표시 */
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;   /* 이미지 짤리는건 모르겠고, 영역을 꽉 채워줘 */
 }
 
 .info {
@@ -157,7 +157,7 @@ main {
 .title {
     font-size: 48px;
     font-weight: 700;
-    text-transform: capitalize;    /* 첫글자만 대문자 */
+    text-transform: capitalize;   /* 첫글자만 대문자 */
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -176,7 +176,7 @@ main {
     justify-content: space-around;
     gap: 24px;
     font-size: 20px;
-    user-select: none;      /* 드래그 불가 */
+    user-select: none;    /* 드래그 불가 */
 }
 
 .quantity span:first-child,

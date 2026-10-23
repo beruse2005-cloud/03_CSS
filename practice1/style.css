@@ -2,16 +2,17 @@
 
 * {
     box-sizing: border-box;
-    font-family: "Jua", sans-serif ;
+    font-family: "Jua", sans-serif;
     /*
-        폰트는 이 화면을 보는 컴퓨터에 설치가 되어 있어야 됨
-        그렇게 하기 쉽지 않기 떄문에 '웹폰트(사이트에서 이용할 수 있는 무설치 폰트 파일)'를
+        폰트는 이 화면을 보는 컴퓨터에 설치가 되어 있어야 됨.
+        그렇게 하기 쉽지 않기 때문에 '웹폰트(사이트에서 이용할 수 있는 무설치 폰트 파일)'를
         불러와서 사용할 수 있게 해야함.
 
-        !폰트는 저작권이 강함. 아무 폰트나 사용하면 안됨
+        !폰트는 저작권이 강함. 아무 폰트나 사용하면 안됨.
         무료로 웹폰트를 이용할 수 있는 대표적 사이트
         구글폰트 : https://fonts.google.com/
-    */
+        눈누 : https://noonnu.cc/
+     */
 }
 
 .title-bar {
@@ -34,11 +35,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e2e8f0;
+    background-color: #e2e8f0;
     color: #a0aec0;
     font-weight: 600;
     text-transform: uppercase;
-
 }
 
 .tap span {
@@ -68,12 +68,12 @@ nav ul {
     font-weight: 600;
     color: #94a3b8;
     margin-bottom: -2px;
-    border-bottom: 2px solid transparent;   /* 투명 */
+    border-bottom: 2px solid transparent;  /* 투명 */
     /*
-        평상시에 없던 border-bottom이
-        마우스를 올렸을 때 2px로 '생겨버리니까' 깜빡임
-        => 아! 평상시에도 bottom-bottom이 있게 해버리면 되는구나!
-    */
+       평상시에 없던 bottom-bottom이
+       마우스를 올렸을 때 2px로 '생겨버리니까' 깜빡임
+       => 아! 평상시에도 bottom-bottom이 있게 해버리면 되는구나!
+     */
 
 }
 
@@ -82,7 +82,7 @@ nav ul {
     border-bottom: 2px solid #3b82f6;
 }
 
-.main-titleBer {
+.main-titleBar {
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
@@ -119,6 +119,6 @@ section {
 }
 .project-title {
     font-size: 18px;
-    flex-direction: column;
+    text-align: center;
     color: #334155;
 }

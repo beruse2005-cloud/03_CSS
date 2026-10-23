@@ -15,17 +15,17 @@ body {
     background-color: #f0f2f5;
 }
 
+
+
 .container {
-    width: 100%;    /* 부모 기준으로 Width를 100% 쓰겠다 */
-    max-width: 1600px;  /* 대신 최대 크기는 1600px를 넘어가지 못 한다 */
+    width: 100%;   /* 부모 기준으로 width를 100% 쓰겠다 */
+    max-width: 1600px; /* 대신 최대 크기는 1600px를 넘어가지 못 한다 */
     height: 90dvh;
     display: flex;
     gap: 20px;
 }
 
 .storage-area {
-    width: calc(50% - 10px);
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -41,13 +41,12 @@ body {
 
 .storage-graph {
     display: flex;
-    flex-wrap: wrap;    /* 줄바꿈 허용 -> 자식의 길이 존중해서 */
+    flex-wrap: wrap;    /* 줄바꿈 허용 -> 자식의 길이를 존중해서 */
     gap: 20px;
-    flex-grow: 2;
 }
 
 .hdd-card {
-    width: calc(50% - 10px);     /* 계산을 통해 동적으로 브라우저가 결정할 수 있도록 함 */
+    width: calc(50% - 10px);      /* 계산을 통해 동적으로 브라우저가 결정할 수 있도록 함 */
     justify-content: center;
     align-items: center;
 }
@@ -103,7 +102,6 @@ body {
 }
 
 .space-card {
-    width: calc(50% - 10px);
     justify-content: center;
     gap: 30px;
 }
@@ -145,7 +143,6 @@ body {
 }
 
 .stats-area {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;

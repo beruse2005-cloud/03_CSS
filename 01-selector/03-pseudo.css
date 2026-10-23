@@ -1,5 +1,5 @@
 /*
-        :hover (마우스를 올렸을 때 적용받는 CSS)
+     :hover (마우스를 올렸을 때 적용받는 CSS)
 */
 
 .btn {
@@ -8,7 +8,7 @@
     /* border : 요소의 경계 */
     border: 2px solid tomato;
     padding: 8px 20px;
-    /* border-radius: 경계의 외각을 둥글게 */
+    /* border-radius : 경계의 외각을 둥글게 */
     border-radius: 8px;
 }
 
@@ -25,7 +25,7 @@ input:focus {
 
 /*
     순서를 통해 고르는건 li 중 첫번째 자식을 고른다
-*/
+ */
 
 li:first-child {
     font-weight: bold;
@@ -50,11 +50,11 @@ li:nth-child(even) {
 }
 
 /*
-    ntn-child 괄호 안에 들어가는 건
+    nth-child 괄호 안에 들어가는 건
     자동으로 자연수가 들어가는 n을 이용 가능
-*/
-li:nth-child(2n -1) {
-    color: rgb(70 169 169 / 0.52);
+ */
+li:nth-child(2n - 1) {
+    color: rgb(90 169 169 / 0.52);   /* rgb(90, 169, 169); */
 }
 
 li:nth-child(3n) {

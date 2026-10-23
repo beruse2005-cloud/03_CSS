@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100dvh;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
     height: 85dvh;
     background-color: #555;
     border-radius: 40px;
-    align-items: stretch;   /* align-items의 기본값. 자식 크기를 무시하고, 부모 크기만큼 늘린다 */
+    align-items: stretch;  /* align-items의 기본값. 자식 크기를 무시, 부모 크기만큼 늘린다 */
     overflow: hidden;
 }
 
@@ -72,7 +72,7 @@ section {
 }
 
 .top-nav .active,
-.top-nav span:hover{
+.top-nav span:hover {
     color: #fff;
 }
 
@@ -154,7 +154,7 @@ section {
 
 .buy-btn {
     border: 0;
-    border-radius: 48px;
+    border-radius: 40px;
     padding: 20px 45px;
     font-size: 16px;
     font-weight: 800;
@@ -167,7 +167,7 @@ section {
     transform: translateY(-5px);
 }
 
-.visual-section{
+.visual-section {
     background: #333;
     justify-content: space-between;
     overflow: hidden;
@@ -192,7 +192,7 @@ section {
 }
 
 .img-container:hover .shoe-img {
-    transform: rotate(-15deg) translateY(-40px) scale(1.15);
+    transform: rotate(-5deg) translateY(-40px) scale(1.15);
 }
 
 .features {

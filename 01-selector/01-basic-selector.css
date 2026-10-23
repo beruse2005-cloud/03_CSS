@@ -1,24 +1,24 @@
 * {
-    /* 폰트를 변경 */
+    /* font-family : 폰트를 변경 */
     font-family: sans-serif;
 }
 
 /* 태그 선택자 -> 화면 상에 존재하는 모든 p */
 p {
-    /* margin : 외부 여백 섷정*/
+    /* margin : 외부 여백 설정 */
     margin: 20px 0;
 }
 
-/* 아이디 선택자 -> 화면 상에 존재하는 모든 id인 요소 하나 */
+/* 아이디 선택자 -> 화면 상에 존재하는 id인 요소 하나 */
 #title {
-    /* co;or : 글자색 */
+    /* color : 글자색 */
     color: tomato;
 }
 
-/* 클래스 선택자 -> class 속성으로 지정되어서 있는 요소들 */
+/* 클래스 선택자 -> class 속성으로 지정되어져 있는 요소들 */
 .price {
     color: teal;
-    /* font-weight : 글자 굵기*/
+    /* font-weight : 글자 굵기 */
     font-weight: bold;
 }
 
@@ -26,9 +26,9 @@ p {
     /* padding : 안쪽 여백 */
     padding: 6px 14px;
 }
+
 .primary {
     /* background : 배경색 */
-    /*background: tomato;*/
     background: #327ed5;
     color: white;
 }

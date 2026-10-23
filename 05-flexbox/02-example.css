@@ -26,7 +26,7 @@ nav {
 }
 
 nav a {
-    color: inherit;     /* inherit 부모색을 상속받겠다 */
+    color: inherit;   /* inherit 부모색을 상속받겠다 */
     text-decoration: none;
 }
 
