@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100dvh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     max-width: 1100px;
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     background-color: white;
     overflow: hidden;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .btn-add:hover {
-    background-color: #2563ab;
+    background-color: #2563eb;
 }
 
 .data-table {
@@ -78,21 +78,6 @@ body {
     text-transform: uppercase;
 }
 
-.data-table td {
-    padding: 20px 30px;
-    border-bottom: 1px solid #f1f5f9;
-    font-size: 15px;
-    vertical-align: middle;
-}
-
-.data-table tbody tr {
-    transition: background-color 0.2s;
-}
-
-.data-table tbody tr:hover {
-    background-color: #f8fafc;
-}
-
 .icon-box {
     width: 36px;
     height: 36px;
@@ -101,20 +86,16 @@ body {
 
 .device-info {
     /*
-       테이블을 이루고 있는 td에 display: flex를 직접적으로 줄 수 없음
-       그럴 경우, 우리가 알고 있는 '셀'로서의 특성을 잃게 됨
-       => td가 안되니, td의 자식으로 div를 더 넣으면 되겠구나!
-    */
+        테이블을 이루고 있는 td에 display: flex를 직접적으로 줄 수 없음
+        그럴 경우, 우리가 알고 있는 '셀'로서의 특성을 잃게 됨
+        => td가 안되니, td의 자식으로 div를 더 넣으면 되겠구나!
+     */
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .icon-light { background-color: #fef08a; }
-.icon-thermostat { background-color: #fed7aa; }
-.icon-plug { background-color: #e2e8f0; }
-.icon-camera { background-color: #bae6fd; }
-
 
 .device-name {
     font-weight: 500;
@@ -123,14 +104,14 @@ body {
 
 .status-badge {
     /*
-        flex는 자식들의 배치를 내 마음대로 하겠다 = flex를 이용하겠다는 것이지만,
-        부모 자체는 block으로 동작함 => block 요소라는 말은 크기를 갖는다
+          flex는 자식들의 배치를 내 마음대로 하겠다 = flex를 이용하겠다이지만,
+          부모 자체는 block로 동작됨 => block 요소라는 말은 크기를 갖는다
 
-        block요소의 반대 => inline요소 => inline 요소라는 말은 크기를 갖지 않는다
-                                      (width나 height가 없이, 내부에 들어가는 글자 등의 크기로 결정)
+          block요소의 반대 => inline요소 => inline 요소라는 말은 크기를 갖지 않는다
+                                         (width나 height가 없이, 내부에 들어가는 글자 등의 크기로 결정)
 
-        이 badge는 자식의 위치 배치도 해야되고, 스스로는 크기를 갖지 않아야 됨
-    */
+          이 badge는 자식의 위치 배치도 해야되고, 스스로는 크기를 갖지 않아야 됨
+     */
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -150,8 +131,6 @@ body {
 .badge-online .status-dot { background-color: #22c55e; }
 .badge-offline { background-color: #fee2e2; color: #991b1b; }
 .badge-offline .status-dot { background-color: #ef4444; }
-.badge-standby { background-color: #fef9c3; color: #854d0e; }
-.badge-standby .status-dot { background-color: #eab308; }
 
 .battery-wrapper {
     display: flex;
@@ -173,19 +152,10 @@ body {
     border-radius: 4px;
 }
 
-.fill-low { background-color: #ef4444; }
-.text-low { color: #ef4444; font-weight: 600; }
-
 .battery-text {
     font-size: 14px;
     color: #64748b;
     width: 35px;
-}
-
-.plugged-in {
-    font-size: 14px;
-    color: #64748b;
-    font-style: italic;
 }
 
 .btn-edit {
@@ -197,7 +167,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: 0.2s;
-    background-color: transparent;
+    background-color: transparent;    /* 투명 */
 }
 
 .btn-edit:hover {
