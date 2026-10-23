@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2bdf1b95a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/6fda4bf8e6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <aside>
@@ -54,7 +54,7 @@
                 </button>
                 <button class="btn btn-outline">
                     <i class="fa-solid fa-trash-can"></i>
-                     Remove
+                    Remove
                 </button>
             </div>
             <div class="form">
@@ -68,29 +68,26 @@
                         <input type="text" id="lastName" class="form-input" />
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="input-group">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" class="form-input" placeholder="abc@abc.com" />
-                    </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="form-input" placeholder="abc@fsdaf.com" />
                 </div>
-                <div class="form-row">
-                    <div class="input-group">
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="tel" id="phoneNumber" class="form-input" />
-                    </div>
+                <div class="input-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" class="form-input" />
                 </div>
-                <div class="form-row">
-                    <!-- 체크 박스 들어가야 하는 자리 -->
-                    <div class="form-group">
-                        <label class="custom-checkbox-wrapper">
-                            <input type="checkbox" class="hidden-checkbox" checked />
-                            <div class="checkbox-box">
-                                <div class="checkmark-icon"></div>
-                            </div>
-                            <span class="checkbox-label">Receive updates and newsletters via email</span>
-                        </label>
-                    </div>
+                <div>
+                    <!--
+                          checkbox를 사용하되, 그 모양을 보여주고 싶지 않다면?
+                          checkbox에게 display: none을 부여함
+                    -->
+                    <label class="checkbox-wrapper">
+                        <input type="checkbox" class="hidden-checkbox" />
+                        <div class="checkbox-box">
+                            <div class="checkmark-icon"></div>
+                        </div>
+                        Receive updates and newsletters via email
+                    </label>
                 </div>
             </div>
             <div class="form-actions">

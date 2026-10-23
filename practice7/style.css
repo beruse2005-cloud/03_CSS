@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /*
-    사이트를 구성하는데 필요한 아이콘들을 미리 모아놓고 사용할 수 있도록 제공 중
-    아이콘팩
-    폰트 어썸 (font-awesome) :
-    회원가입 또는 로그인 해서 제공된 js를 html에 삽입
+      사이트를 구성하는데 필요한 아이콘들을 미리 모아놓고 사용할 수 있도록 제공 중
+      아이콘팩
+      폰트 어썸 (font-awesome) :
+      회원가입 또는 로그인 해서 제공된 js를 html에 삽입
 
-    이렇게 제공되는 아이콘팩은 그림 파일은 맞음
-    png나 jpg 같은 그림 파일은 1 픽셀씩 저장되는 점들의 집합 파일이지만,
-    svg 형식의 그림 파일 -> 벡터 그래픽 파일
+      이렇게 제공되는 아이콘팩은 그림 파일은 맞음
+      png나 jpg 같은 그림 파일은 1픽셀씩 저장되는 점들의 집합 파일이지만,
+      svg 형식의 그림 파일 -> 벡터 그래픽 파일
 
-    일반 그림 파일은 크기를 늘리면 화질 저하가 일어남
-    svg 형식의 그림 파일은 벡터 형식이기 때문에 크기를 늘려도 화질 저하가 일어나지 않으며
-                                         색상을 변경하는 것도 가능함
-*/
+      일반 그림 파일은 크기를 늘리면 화질 저하가 일어남
+      svg 형식의 그림 파일은 벡터 형식이기 떄문에 크기를 늘려도 화질 저하가 일어나지 않으며
+                                           색깔을 변경하는 것도 가능함
+ */
 
 
 * {
@@ -86,7 +86,7 @@ nav ul li:hover {
 
 nav ul li.active {
     border-left: 4px solid #3b82f6;
-    color: #327ed6;
+    color: #3b82f6;
 }
 
 header {
@@ -103,7 +103,6 @@ header {
     font-size: 20px;
     font-weight: 600;
     color: #111827;
-    margin-bottom: 5px;
 }
 .header-text span {
     font-size: 13px;
@@ -113,8 +112,8 @@ header {
 .user-shortcut {
     display: flex;
     align-items: center;
-    gap: 28px;
-    color: #6b7280;     /* 글자와 관련이 된 속성값은 자식에게까지 전파 */
+    gap: 20px;
+    color: #6b7280;    /* 글자와 관련이 된 속성값은 자식에게까지 전파 */
     font-size: 18px;
 }
 
@@ -125,7 +124,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #2563ab;
+    color: #2563eb;
     background-color: #dbeafe;
 }
 
@@ -172,7 +171,7 @@ header {
 }
 
 .btn-primary {
-    background-color: #2563ab;
+    background-color: #2563eb;
     color: white;
     border: none;
 }
@@ -218,18 +217,17 @@ header {
 
 .input-group input:focus {
     outline: none;
-    border-color: #2563ab;
+    border-color: #2563eb;
 }
 
-.custom-checkbox-wrapper {
+.checkbox-wrapper {
     display: flex;
     align-items: center;
-    cursor: pointer;
     user-select: none;
 }
 
 .hidden-checkbox {
-    display: none;     /* 화면에 출력되지 않게끔 함. 대신 html 코드는 있음 */
+    display: none;
 }
 
 .checkbox-box {
@@ -241,7 +239,6 @@ header {
     justify-content: center;
     align-items: center;
     background-color: white;
-    transition: all 0.2s;
     padding-bottom: 4px;
     margin-right: 10px;
 }
@@ -254,17 +251,17 @@ header {
     transform: rotate(45deg);
 }
 
-/* + 는 형제 관계에서 선택할 때 사용 */
+/* 선택자를 + 로 연결한건 형제 선택자 */
 .hidden-checkbox:checked + .checkbox-box {
-    background-color: #2563eb;
-    border-color: #2563eb;
+    background-color: red;
+    border-color: red;
 }
 
 .form-actions {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    margin-top: 30px;
     padding-top: 30px;
+    margin-top: 30px;
     border-top: 1px solid #e5e7eb;
 }
